@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> designing with box model</title>
+        <style>
+            a{
+            margin-right: 5px;
+            text-align: justify;
+            }
+            .stretch-button{
+                background-color: blueviolet;
+                padding: 10px;
+                color: white;
+                border: none;
+                transition: padding 0.15s;
+            }
+            .stretch-button:hover{
+                padding: 20px;
+            }
+            .shadow{
+                background-color: aqua;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 15px;
+                padding-left: 15px;
+                border-width: 1px;
+                transition: box-shadow 0.15s;
+            }
+            .shadow:hover{
+                box-shadow: 4px 4px 7px rgb(0, 0, 0);
+            }
+            .one{
+                background-color: aqua;
+                border: none;
+                height: 35px;
+                border-radius: 10px;
+                transition: padding-left 0.15s,padding-right 0.15s;
+            }
+            .one:hover{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+        </style>
+    </head>
+    <body> 
+        <button class="back-button">
+            back
+        </button>
+        <a href="www.youtube.com"> 1 </a>
+        <a href="www.youtub.com"> 2 </a>
+        <a href="www.youtub.com"> 3 </a>
+        <a href="www.youtbe.com"> 4 </a>
+        <button class="next-button">
+            next
+        </button>
+        <button class="stretch-button">
+            Stretch
+        </button>
+        <button class="shadow">
+            Shadow
+        </button>
+        <button class="one">
+            one
+         </button>
+    </body>
+</html>
